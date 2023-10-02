@@ -59,6 +59,7 @@ chrome.runtime.onMessage.addListener( (message, sender, sendResponse)=>{
         if(!recorder) return console.log("no recorder")
 
         recorder.stop();
+        window.open('https://helpout-web.vercel.app/', '_blank')
 
 
     }
